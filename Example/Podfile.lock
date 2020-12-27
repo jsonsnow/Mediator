@@ -1,0 +1,30 @@
+PODS:
+  - Mediator (0.1.0):
+    - Mediator/ModuleHelper (= 0.1.0)
+    - Mediator/ModuleService (= 0.1.0)
+    - WGRouter
+  - Mediator/ModuleHelper (0.1.0):
+    - WGRouter
+  - Mediator/ModuleService (0.1.0):
+    - WGRouter
+  - WGRouter (0.1.0)
+
+DEPENDENCIES:
+  - Mediator (from `../`)
+  - WGRouter
+
+SPEC REPOS:
+  https://github.com/jsonsnow/CLSpces.git:
+    - WGRouter
+
+EXTERNAL SOURCES:
+  Mediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mediator: 159325cbb94c5e8d95d6da6b9b82429292856f83
+  WGRouter: 12df174f180cff141c947c00cfd563c069fec2a0
+
+PODFILE CHECKSUM: c6c8b4ec046167ea4601a2ae5b833867bff73ee0
+
+COCOAPODS: 1.9.3

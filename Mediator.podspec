@@ -30,13 +30,19 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Mediator/Classes/**/*'
+  #s.source_files = 'Mediator/Classes/**/*'
+  s.subspec 'ModuleHelper' do |helper|
+      helper.source_files = 'Mediator/Classes/ModuleHelper/*'
+  end
   
+  s.subspec 'ModuleService' do |service|
+      service.source_files = 'Mediator/Classes/ModuleService/*'
+  end
   # s.resource_bundles = {
   #   'Mediator' => ['Mediator/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'WGRouter'
 end

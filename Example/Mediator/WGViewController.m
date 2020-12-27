@@ -7,6 +7,7 @@
 //
 
 #import "WGViewController.h"
+#import <WGUserModuleService.h>
 
 @interface WGViewController ()
 

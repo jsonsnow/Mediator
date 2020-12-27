@@ -59,12 +59,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		891612A1CDAC6AE287FFD91D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		891612A1CDAC6AE287FFD91D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A30C66475EC58C061E878876 /* Pods-Mediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Mediator_Tests/Pods-Mediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A6230E260F997B94D2B49B33 /* Mediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Mediator.podspec; path = ../Mediator.podspec; sourceTree = "<group>"; };
+		A6230E260F997B94D2B49B33 /* Mediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Mediator.podspec; path = ../Mediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1BF02C39F3194019B94574C /* Pods_Mediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC82ABD925FF858C052FFC5E /* Pods-Mediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator_Example.release.xcconfig"; path = "Target Support Files/Pods-Mediator_Example/Pods-Mediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C0AF2603064A8BB6D5B01654 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C0AF2603064A8BB6D5B01654 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D8FCFF70B7FA7BD28CB12F05 /* Pods-Mediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator_Tests.release.xcconfig"; path = "Target Support Files/Pods-Mediator_Tests/Pods-Mediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E5A7491B5D98D2E5EE9F8EE7 /* Pods-Mediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mediator_Example.debug.xcconfig"; path = "Target Support Files/Pods-Mediator_Example/Pods-Mediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				A30C66475EC58C061E878876 /* Pods-Mediator_Tests.debug.xcconfig */,
 				D8FCFF70B7FA7BD28CB12F05 /* Pods-Mediator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -347,10 +347,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Mediator_Example/Pods-Mediator_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Mediator/Mediator.framework",
+				"${BUILT_PRODUCTS_DIR}/WGRouter/WGRouter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WGRouter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
