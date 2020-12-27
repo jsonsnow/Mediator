@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - URL routers
 static NSString *const kRouteImageEdit = @"//edit/imageEdit";
+static NSString *const kRouteImageEditParamImage = @"image";
 
 @protocol WGImageEditModuleService <NSObject>
 
