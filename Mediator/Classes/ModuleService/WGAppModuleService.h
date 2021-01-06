@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //webview
 static NSString *const kRouteWebPath = @"//web/open";
+static NSString *const kRouteMQWebPath = @"//web/openMQ";
 static NSString *const kRouteWebUrlParams = @"url";
 static NSString *const kRouteWebScriptParams = @"script";
 
