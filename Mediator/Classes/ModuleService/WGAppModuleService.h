@@ -5,7 +5,7 @@
 //  Created by chen liang on 2021/1/6.
 //
 
-// 主APP中间层，承建所以模块拆分的依赖
+// 主APP过渡层，承建暂时不拆分，但子pod会依赖的模块,后续从主模块中移除到对应pod的时候，从这里拆依赖
 #ifndef WGAppModuleService_h
 #define WGAppModuleService_h
 
@@ -21,19 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-//webview
-static NSString *const kRouteWebPath = @"//web/open";
-static NSString *const kRouteMQWebPath = @"//web/openMQ";
-static NSString *const kRouteWebUrlParams = @"url";
-static NSString *const kRouteWebScriptParams = @"script";
-
-@protocol WebModuleService <NSObject>
-
-- (NSString*)shopName;
-- (UIImage*)shopLogo;
-- (CGFloat)shopRevenue;
-
-@end
 
 NS_ASSUME_NONNULL_END
 

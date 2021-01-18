@@ -30,6 +30,7 @@
 		B04D2A167C30540FAF3D6ECD22266D2F /* SaleModuleService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0EA5B4FE3E14212CB5E6CBB94A3BAA /* SaleModuleService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B94A3D0E77C4454CDFF8AA586D3BC5E5 /* WGImageEditModuleService.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D45D00E513F53A59C85303D3CA1C67B /* WGImageEditModuleService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAC1597325A5DB49009E3CA9 /* WGAppModuleService.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC1597125A5DB49009E3CA9 /* WGAppModuleService.h */; };
+		BAC1598C25A6A621009E3CA9 /* WGWebModuleService.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC1598B25A6A621009E3CA9 /* WGWebModuleService.h */; };
 		BB12DBE3D3E40E03706761C49DFAF4B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0407B355F2D95D8B988538E04E3851C4 /* Foundation.framework */; };
 		BBBE8DB9F0BE816249955FAA91181D49 /* WGRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A33F1BE6FD2E2631C38FAD7CF0895C /* WGRouter.framework */; };
 		BF8BA67AE7A0C162800675684234C098 /* LaunchModuleService.h in Headers */ = {isa = PBXBuildFile; fileRef = 402F3DCCD87737019C142F4D9945C513 /* LaunchModuleService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -115,6 +116,7 @@
 		B81150465AAC1E313FB0EC0B6263416D /* BifrostHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BifrostHeader.h; path = WGRouter/Classes/BifrostHeader.h; sourceTree = "<group>"; };
 		B8141164B2BC0C17CED6B942313A939B /* Pods-Mediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BAC1597125A5DB49009E3CA9 /* WGAppModuleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WGAppModuleService.h; path = Mediator/Classes/ModuleService/WGAppModuleService.h; sourceTree = "<group>"; };
+		BAC1598B25A6A621009E3CA9 /* WGWebModuleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WGWebModuleService.h; path = Mediator/Classes/ModuleService/WGWebModuleService.h; sourceTree = "<group>"; };
 		C541A59D075F79DF595F690591194305 /* Mediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFC0551A5798DD5D277040DEDF64730 /* Pods-Mediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D28D311EF39F68292C9E85FB545F25D8 /* Mediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mediator-umbrella.h"; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 				0D45D00E513F53A59C85303D3CA1C67B /* WGImageEditModuleService.h */,
 				229610298EF4D403B8E56D374B28B8D0 /* WGUserModuleService.h */,
 				BAC1597125A5DB49009E3CA9 /* WGAppModuleService.h */,
+				BAC1598B25A6A621009E3CA9 /* WGWebModuleService.h */,
 			);
 			name = ModuleService;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				246EAF72E8A6BF0D2CDF0296CC6B8CCD /* GoodsModuleService.h in Headers */,
+				BAC1598C25A6A621009E3CA9 /* WGWebModuleService.h in Headers */,
 				25B02790C2B7E8B9D25CD1B287418376 /* HomeModuleService.h in Headers */,
 				BF8BA67AE7A0C162800675684234C098 /* LaunchModuleService.h in Headers */,
 				3DBE2F2D7664FDFFD87E1F1B36305788 /* Mediator-umbrella.h in Headers */,
