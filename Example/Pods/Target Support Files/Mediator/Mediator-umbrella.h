@@ -17,6 +17,7 @@
 #import "LaunchModuleService.h"
 #import "SaleModuleService.h"
 #import "ShopModuleService.h"
+#import "WGAppModuleService.h"
 #import "WGImageEditModuleService.h"
 #import "WGUserModuleService.h"
 

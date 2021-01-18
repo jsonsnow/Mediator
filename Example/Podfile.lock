@@ -1,11 +1,11 @@
 PODS:
-  - Mediator (0.1.0):
-    - Mediator/ModuleHelper (= 0.1.0)
-    - Mediator/ModuleService (= 0.1.0)
+  - Mediator (0.1.5):
+    - Mediator/ModuleHelper (= 0.1.5)
+    - Mediator/ModuleService (= 0.1.5)
     - WGRouter
-  - Mediator/ModuleHelper (0.1.0):
+  - Mediator/ModuleHelper (0.1.5):
     - WGRouter
-  - Mediator/ModuleService (0.1.0):
+  - Mediator/ModuleService (0.1.5):
     - WGRouter
   - WGRouter (0.1.0)
 
@@ -22,9 +22,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Mediator: 159325cbb94c5e8d95d6da6b9b82429292856f83
+  Mediator: d3190dbcd09e32871c28d5c1e6c342ea07b1ac2e
   WGRouter: 12df174f180cff141c947c00cfd563c069fec2a0
 
 PODFILE CHECKSUM: c6c8b4ec046167ea4601a2ae5b833867bff73ee0
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.9.1
