@@ -11,15 +11,15 @@
 #import <WGRouter/BifrostHeader.h>
 #import <WebKit/Webkit.h>
 //webview
-static NSString *const kRouteWebPath = @"//web/open";
-static NSString *const kRouteMQWebPath = @"//web/openMQ";
-static NSString *const kRouteWebUrlParams = @"url";
-static NSString *const kRouteWebScriptParams = @"script";
+static NSString * const kRouteWebPath = @"//web/open";
+static NSString * const kRouteMQWebPath = @"//web/openMQ";
+static NSString * const kRouteWebUrlParams = @"url";
+static NSString * const kRouteWebScriptsParams = @"scripts";
+static NSString * const kRouteMQWebShareItemsParams = @"shareItems";
 
 
 @protocol WebModuleService <NSObject>
 @property (nonatomic, weak, readonly) WKWebView *webview;
-
 
 - (WKWebView *)webView;
 

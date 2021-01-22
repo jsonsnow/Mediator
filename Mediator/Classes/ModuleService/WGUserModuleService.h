@@ -17,6 +17,9 @@ static NSString *kRouterUserLogin = @"//user/login";
 - (nullable NSString *)userToken;
 - (nullable NSString *)albumId;
 
+- (void)saveLoginUserInfo:(NSDictionary *)info;
+- (void)saveUserToken:(NSString *)token;
+
 @end
 
 NS_ASSUME_NONNULL_END
