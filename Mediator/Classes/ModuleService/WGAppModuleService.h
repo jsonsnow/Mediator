@@ -15,10 +15,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 //common
 
+typedef void (^AppModuleRequestCompletionHandler)(id result,NSError *error);
+
 @protocol AppCommonModuleService <NSObject>
 
 - (nullable NSString *)mediator_base_url;
 
+
+- (void)authWechatCurrentViewController:(UIViewController *)from completion:(AppModuleRequestCompletionHandler)completion;
+
+- (BOOL)um_wechat_Social_isInstall;
+
+- (void)logModule:(NSString *)module verbose:(NSString *)verbose;
 @end
 
 
