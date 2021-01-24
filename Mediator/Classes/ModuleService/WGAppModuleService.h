@@ -27,6 +27,8 @@ typedef void (^AppModuleRequestCompletionHandler)(id result,NSError *error);
 - (BOOL)um_wechat_Social_isInstall;
 
 - (void)logModule:(NSString *)module verbose:(NSString *)verbose;
+
+- (NSString *)localizedStringForKey:(NSString *)key;
 @end
 
 

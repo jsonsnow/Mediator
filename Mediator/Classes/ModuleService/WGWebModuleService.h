@@ -16,6 +16,7 @@ static NSString * const kRouteMQWebPath = @"//web/openMQ";
 static NSString * const kRouteWebUrlParams = @"url";
 static NSString * const kRouteWebScriptsParams = @"scripts";
 static NSString * const kRouteMQWebShareItemsParams = @"shareItems";
+static NSString * const kkRouteWebIsRegParams = @"isReg";
 
 
 @protocol WebModuleService <NSObject>
