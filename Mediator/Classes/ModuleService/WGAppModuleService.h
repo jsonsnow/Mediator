@@ -20,11 +20,16 @@ typedef void (^AppModuleRequestCompletionHandler)(id result,NSError *error);
 @protocol AppCommonModuleService <NSObject>
 
 - (nullable NSString *)mediator_base_url;
+- (NSString *)conact_customer_link;
 
 
 - (void)authWechatCurrentViewController:(UIViewController *)from completion:(AppModuleRequestCompletionHandler)completion;
 
 - (BOOL)um_wechat_Social_isInstall;
+
+- (void)configUMAlias:(NSString *)uidkey;
+
+- (void)removeUMAlias;
 
 - (void)logModule:(NSString *)module verbose:(NSString *)verbose;
 
